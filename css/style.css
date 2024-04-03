@@ -19,7 +19,7 @@ body {
   background: #fff;
 }
 .font-base{
-  font-family: initial !important
+  font-family: 'Times New Roman', Times, serif !important
 }
 .point-event{
   cursor: pointer;
