@@ -18,7 +18,12 @@ body {
   color: #828282;
   background: #fff;
 }
-
+.font-base{
+  font-family: initial !important
+}
+.point-event{
+  cursor: pointer;
+}
 #page {
   position: relative;
   overflow-x: hidden;
