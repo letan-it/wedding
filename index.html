@@ -736,6 +736,14 @@
 		document.getElementById("map-marker-letan").addEventListener("click", openPopupMapLeTan);
 		document.getElementById("map-marker-tiec-cuoi-letan").addEventListener("click", openPopupMap_tiecCuoiLeTan);
 
+		var urlParams = new URLSearchParams(window.location.search);
+		var value = urlParams.get('t');
+
+		// Check if the 't' parameter exists and the value is not null
+		if (urlParams.has('t') && value !== null) {
+		// Display an alert message
+		alert(value);
+		}
 		
 </script>
 
