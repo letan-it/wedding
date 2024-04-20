@@ -1859,3 +1859,9 @@ form label {
     border-radius: 25px;
     margin: 5px;
 }
+
+.qr-bank{
+	border-radius: 10px;
+    width: 200px;
+    background-color: #fff;
+}
