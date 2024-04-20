@@ -1847,3 +1847,15 @@ form label {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+
+.cam-on{
+  background-color: #dcdcdc94;
+    padding: 10px;
+    border-radius: 25px
+}
+.qrcode{
+  border: 2px solid #ffff;
+    border-radius: 25px;
+    margin: 5px;
+}
